@@ -14,6 +14,7 @@ if not os.path.exists(current_directory+ '/frames'):
 while True:
     # implementing a queue for the screenshots
     
+    
     while keyboard.is_pressed('q') == True:
         screenshot =pyautogui.screenshot('screenshot.png')
         x+=1
